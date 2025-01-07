@@ -1,0 +1,153 @@
+
+.dokument
+{
+    display: grid;
+    grid-template-columns: 1850px;
+    grid-template-rows: 100px 150px 20px 750px 150px;
+    position:absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -30%);
+    
+}
+.prv_del
+{
+    grid-column: 1;
+    grid-row: 1;
+    border-bottom: solid;
+}
+.logo
+{
+    float: left;
+    margin-left: 50px;
+    
+}
+.nav
+{
+    float: right;
+    margin-right: 50px;
+    width: 300px;
+    font-size: 18px;
+
+    
+}
+.mesto
+{
+    margin-right: 15px;
+}
+
+
+
+.vtor_del
+{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 40px;
+    background-color: lightgreen;
+    margin-top: 10px;
+    color: white;
+}
+.kontakt
+{
+    float: left;
+    margin-left: 40px;
+}
+.home
+{
+    float: right;
+    margin-right: 30px;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    
+    
+   
+  }
+  a:link
+{
+   color: black;
+   text-decoration: none;
+}
+
+
+
+.tret_del
+{
+    grid-column: 1;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1000px 850px;
+    grid-template-rows: 10px 50px 50px 150px 150px 100px; 
+    grid-gap: 20px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+  
+}
+.header, .paragraf, .paragraf2, .paragraf3
+{
+    margin-left: 40px;
+    
+}
+.paragraf, .paragraf2, .paragraf3
+{
+    font-size: 30px;
+}
+.header
+{
+    grid-column:1 ;
+    grid-row: 2;
+    color: white;
+    font-size: 40px;
+ 
+}
+.paragraf
+{
+    grid-column: 1 ;
+    grid-row:3 ;
+}
+.paragraf2
+{
+    grid-column:1 ;
+    grid-row:4 ;
+}
+.paragraf3
+{
+    grid-column:1 ;
+    grid-row: 5;
+}
+.mapa
+{
+    grid-column: 2 ;
+    grid-row: 2/5;
+    margin-right: 100px;
+    width: 750px;
+}
+.lokacija
+{
+    grid-column: 2;
+    grid-row: 6;
+    margin-left: 400px;
+    font-size: 20px;
+    margin-bottom: 550px;
+}
+
+.cetvrt_del
+{
+    grid-column: 1;
+    grid-row: 5;
+    font-size: medium;
+    border-top: solid;
+}
+.faks
+{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.dolu_nav
+{
+    float: right;
+    margin-right: 20px;
+    font-size: 20;
+}

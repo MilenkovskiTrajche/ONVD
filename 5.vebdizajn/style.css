@@ -1,0 +1,117 @@
+* {
+    font-family: sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: rgb(157, 240, 140);
+    height: 100%;
+}
+.Finki0{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+.Page0{
+    font-size: 40px;
+    color: aqua;
+    font-weight: bold;
+}
+.header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.site {
+    padding: 6px 20px;
+    text-decoration: none;
+    color: lightblue;
+}
+.site.selected {
+    background-color: rgb(45, 14, 187);
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.remains{
+    color: purple;
+}
+.Controversial{
+    color: purple;
+}
+.content{
+    padding: 0px;
+    padding: 50px 20px;
+}
+.ContractForm{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.lname{
+display: flex;
+justify-content: center;
+}
+#lname{ 
+    width: 730px;
+text-align: center;}
+#fname{
+    width: 670px;
+}
+
+.Naslovo {
+    text-align: center;
+}
+.naslov{
+    color: indigo;
+}
+.portokalov {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+.zelen{
+    padding: 10px;
+    flex: 1;
+}
+.tidamikazis {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    color: white;
+    width: 200px;
+    background: #05cb82;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+.input-border, textarea, select {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+textarea {
+    height: 150px;
+}
+.wiki {
+    width: 100%;
+    height: 600px;
+}
+.maps {
+    width: 100%;
+    height: 400px;
+}
