@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DNICK</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <style>
+        #custom-style{
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+<div class="container vh-100">
+    <div class="row h-25 ">
+        <div class="col-2 bg-secondary-subtle h-25">Hello</div>
+        <div class="col-2 bg-secondary-subtle h-25 me-">World</div>
+        <div class="col-2 bg-secondary-subtle h-25 ">Hello</div>
+    </div>
+    <div class="row h-50">
+        <div class="col-6">
+            <ul class="list-unstyled list-group w-50 h-25 ">
+                <li class="list-group-item ">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item">Item 4</li>
+                <li class="list-group-item">Item 5</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+                <th>ID Number</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>GPA</th>
+                </thead>
+                <tbody>
+                <tr class="table-info">
+                    <td>244444</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>7.42</td>
+                </tr>
+                <tr>
+                    <td>255555</td>
+                    <td>Jane</td>
+                    <td class="table-warning">Doe</td>
+                    <td>9.42</td>
+                </tr>
+                <tr>
+                    <td>244444</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>7.42</td>
+                </tr>
+                <tr>
+                    <td>244444</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>7.42</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row h-25 mt-5 pb-5 justify-content-evenly">
+        <div class="col-2 h-100 bg-secondary-subtle border-top border-primary"></div>
+        <div class="col-2 h-100 bg-secondary-subtle border-end border-dark"></div>
+        <div class="col-2 h-100 bg-secondary-subtle border-start border-5 border-opacity-25 border-info"></div>
+    </div>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row my-5 pb-5">
+        <h3>Example heading <span class="badge bg-secondary">Badge</span></h3>
+        <div style="height: 100px; width: 100px" class="bg-secondary-subtle rounded-pill">
+        </div>
+    </div>
+    <div class="row my-5 pb-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Specific products</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row my-5 pb-5">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <div class="d-flex w-100 justify-content-end pe-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="row my-5 pb-5">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="finki-logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="finki-logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="finki-logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

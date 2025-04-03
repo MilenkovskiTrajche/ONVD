@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <title>Title</title>
+    <style>
+        .col{
+            background-color: green;
+            border: 1px solid black;
+        }
+        .row{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="h2 text-center">Welcome to my page</h1>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+        <div class="col">5</div>
+        <div class="col">6</div>
+    </div>
+    <dl class="row">
+        <dt class="col-4">Definition</dt>
+        <dd class="col-8 text-truncate">example of definition</dd>
+        <dt class="col-4">Definition1</dt>
+        <dd class="col-8 text-truncate">example of definition 1 xample of definition 1 xample of definition 1 xample of definition 1</dd>
+    </dl>
+    <div class="row">
+        <div class="col">7</div>
+        <div class="col">8</div>
+        <div class="col">9</div>
+        <div class="col">10</div>
+        <div class="col">11</div>
+        <div class="col">12</div>
+    </div>
+
+    <br>
+
+    <button type="button" class="btn btn-primary">
+        Click <span class="badge border border-1 rounded-pill bg-danger border-danger">2</span>
+    </button>
+
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Warning!</h4>
+        This is alert! For more click <a class="alert-link" href="#">here</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Courses</a></li>
+            <li class="breadcrumb-item active">HCI</li>
+        </ol>
+    </nav>
+
+    <div class="btn-group" role="group">
+        <input name="radioname" type="radio" class="btn-check" id="check1">
+        <label class="btn btn-outline-primary" for="check1">Option1</label>
+        <input name="radioname" type="radio" class="btn-check" id="check2">
+        <label class="btn btn-outline-primary" for="check2">Option2</label>
+        <input name="radioname" type="radio" class="btn-check" id="check3">
+        <label class="btn btn-outline-primary" for="check3">Option3</label>
+    </div>
+    <br/>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-primary">Button1</button>
+        <button type="button" class="btn btn-outline-primary">Button1</button>
+        <div class="btn-group" role="group">
+            <button type="button"
+                    class="btn btn-outline-primary dropdown-toggle"
+                    data-bs-toggle="dropdown">Dropdown</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="card-group gap-2">
+        <div class="card" style="width: 200px;">
+            <img src="20x20%20big%20bang.jpg" class="card-img-top">
+            <div class="card-body border border-dark border-1">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some text goes here. A lot of text</p>
+                <a href="#" class="card-link">Go somewhere</a>
+            </div>
+        </div>
+         <div class="card border border-dark border-1" style="width: 200px;">
+            <img src="20x20%20big%20bang.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some text goes here. A lot of text</p>
+                <a href="#" class="card-link">Go somewhere</a>
+            </div>
+        </div>
+         <div class="card border border-dark border-1" style="width: 200px;">
+            <img src="20x20%20big%20bang.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some text goes here. A lot of text</p>
+                <a href="#" class="card-link">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="card-group gap-2">
+        <div class="card" style="width: 200px;">
+            <div class="card-header">
+                <h5 class="card-title">Card title</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">List item1</li>
+                <li class="list-group-item">List item2</li>
+                <li class="list-group-item">List item3</li>
+            </ul>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div id="carousel" class="carousel slide bg-primary" data-bs-ride="carousel">
+        <div class="carousel-inner fw-bold text-center">
+            <div class="carousel-item active" data-bs-interval="1000">Test1</div>
+            <div class="carousel-item">Test2</div>
+            <div class="carousel-item">Test3</div>
+            <div class="carousel-item">
+                <img src="20x20%20big%20bang.jpg" class="w-100 h-100">
+                <div class="carousel-caption">
+                    <h3>Card title</h3>
+                    <p>Card text</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev"
+                type="button" data-bs-target="#carousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next"
+                type="button" data-bs-target="#carousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel"
+            data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel"
+            data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel"
+            data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel"
+            data-bs-slide-to="3"></button>
+        </div>
+    </div>
+
+    <br><br><br>
+
+
+    <div class="dropdown">
+        <button type="button" class="btn btn-secondary dropdown-toggle"
+                data-bs-toggle="dropdown">Dropdown</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+
+    <br><br><br>
+</div>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
